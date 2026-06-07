@@ -1,34 +1,46 @@
 {
+  "schema": 1,
   "channel": "stable",
-  "generated_at": "2026-06-07T12:00:00Z",
-  "components": {
+  "repository": "https://github.com/j102003/pet4net-updates",
+  "latest_version": "1.0.1",
+  "git_tag": "v1.0.1",
+  "items": {
     "controller": {
-      "latest_version": "1.0.0",
-      "filename": "controller-v1.0.0.bin",
-      "url": "",
-      "sha256": "",
-      "release_notes": "Initial CONTROLLER firmware release."
+      "label": "CONTROLLER firmware",
+      "latest_version": "1.0.1",
+      "url": "https://github.com/j102003/pet4net-updates/releases/download/v1.0.1/controller-v1.0.1.bin",
+      "filename": "controller-v1.0.1.bin",
+      "sha256": "1c6284312167889f0d1d5fcc585e3406ad1b4a9f8436dfe54cb97f38af9dc2cc",
+      "release_notes": "CONTROLLER firmware update."
     },
     "cam": {
-      "latest_version": "1.0.0",
-      "filename": "cam-v1.0.0.bin",
-      "url": "",
-      "sha256": "",
-      "release_notes": "Initial CAM firmware release."
+      "label": "CAM firmware",
+      "latest_version": "1.0.1",
+      "url": "https://github.com/j102003/pet4net-updates/releases/download/v1.0.1/cam-v1.0.1.bin",
+      "filename": "cam-v1.0.1.bin",
+      "sha256": "97156079d3c479ac9b3ff1d0e9a52e8e6496f10ba3ad5b0d7ad793305ce694d9",
+      "release_notes": "CAM firmware update."
     },
     "network": {
-      "latest_version": "1.0.0",
-      "filename": "network-ui-v1.0.0.zip",
-      "url": "",
-      "sha256": "",
-      "release_notes": "Initial MikroTik captive portal release."
+      "label": "NETWORK captive portal package",
+      "latest_version": "1.0.1",
+      "url": "https://github.com/j102003/pet4net-updates/releases/download/v1.0.1/network-ui-v1.0.1.zip",
+      "filename": "network-ui-v1.0.1.zip",
+      "sha256": "cf2de1b17dc06a0a05e4c8b45bf612af4eb576ab2d6315b69d61f15728ee1289",
+      "release_notes": "NETWORK MikroTik hotspot captive portal UI package."
     },
     "manager": {
-      "latest_version": "1.0.0",
-      "filename": "Pet4Net-Manager-Setup-v1.0.0.exe",
-      "url": "",
-      "sha256": "",
-      "release_notes": "Initial Pet4Net Manager release."
+      "label": "Pet4Net Manager",
+      "latest_version": "1.0.1",
+      "url": "https://github.com/j102003/pet4net-updates/releases/download/v1.0.1/Pet4Net-Manager-Setup-v1.0.1.exe",
+      "filename": "Pet4Net-Manager-Setup-v1.0.1.exe",
+      "sha256": "3d5db2d6b106e683c2a6905fa6af61bf7fbcef5540c3e077f667167a5a8f7c05",
+      "release_notes": "Pet4Net Manager desktop application update.",
+      "silent_args": [
+        "/VERYSILENT",
+        "/SUPPRESSMSGBOXES",
+        "/NORESTART"
+      ]
     }
   }
 }
