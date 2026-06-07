@@ -34,7 +34,7 @@
       "latest_version": "1.0.2",
       "url": "https://github.com/j102003/pet4net-updates/releases/download/v1.0.2/Pet4Net-Manager-Setup-v1.0.2.exe",
       "filename": "Pet4Net-Manager-Setup-v1.0.2.exe",
-      "sha256": "f072060a99ce1ba089cfb64844ce248a42ae5b95acd16d4dab79af85a4a5e104",
+      "sha256": "275cb0874435567c1e3b667145896d5984e3b6a8f8d843c562b696bb224f25df",
       "release_notes": "Pet4Net Manager desktop application update.",
       "silent_args": [
         "/VERYSILENT",
