@@ -3,7 +3,7 @@
   "channel": "stable",
   "repository": "https://github.com/j102003/pet4net-updates",
   "latest_version": "1.0.2",
-  "git_tag": "Pet4Net-v1.0.2",
+  "git_tag": "v1.0.2",
   "items": {
     "controller": {
       "label": "CONTROLLER firmware",
